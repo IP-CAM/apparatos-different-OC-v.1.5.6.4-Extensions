@@ -1,0 +1,24 @@
+2014-12-03 14:06:15 - PHP Notice:  Undefined variable: tx_phone in C:\wamp\www\495\catalog\view\theme\theme495\template\common\header.tpl on line 247
+2014-12-04 15:56:06 - PHP Notice:  Undefined variable: email in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 84
+2014-12-05 7:44:39 - PHP Notice:  Undefined variable: text_gglp in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 90
+2014-12-05 7:44:39 - PHP Notice:  Undefined variable: text_pn in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 92
+2014-12-05 7:44:39 - PHP Notice:  Undefined variable: text_in in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 93
+2014-12-05 7:47:49 - PHP Notice:  Undefined variable: text_gglp in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 90
+2014-12-05 7:47:49 - PHP Notice:  Undefined variable: text_pn in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 92
+2014-12-05 7:47:49 - PHP Notice:  Undefined variable: text_in in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 93
+2014-12-05 7:48:06 - PHP Notice:  Undefined variable: text_gglp in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 90
+2014-12-05 7:48:06 - PHP Notice:  Undefined variable: text_pn in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 92
+2014-12-05 7:48:06 - PHP Notice:  Undefined variable: text_in in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 93
+2014-12-05 7:48:56 - PHP Notice:  Undefined variable: text_gglp in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 90
+2014-12-05 7:48:56 - PHP Notice:  Undefined variable: text_pn in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 92
+2014-12-05 7:48:56 - PHP Notice:  Undefined variable: text_in in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 93
+2014-12-05 7:50:19 - PHP Notice:  Undefined variable: text_gglp in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 90
+2014-12-05 7:50:19 - PHP Notice:  Undefined variable: text_pn in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 92
+2014-12-05 7:50:19 - PHP Notice:  Undefined variable: text_in in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 93
+2014-12-05 7:51:10 - PHP Notice:  Undefined variable: text_gglp in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 90
+2014-12-05 7:51:10 - PHP Notice:  Undefined variable: text_pn in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 92
+2014-12-05 7:51:10 - PHP Notice:  Undefined variable: text_in in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 93
+2014-12-05 7:52:04 - PHP Notice:  Undefined variable: text_gglp in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 90
+2014-12-05 7:52:04 - PHP Notice:  Undefined variable: text_pn in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 92
+2014-12-05 7:52:04 - PHP Notice:  Undefined variable: text_in in C:\wamp\www\495\catalog\view\theme\theme495\template\common\footer.tpl on line 93
+2015-11-02 21:11:09 - PHP Notice:  unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 1164 of 2151 bytes in /Users/fernandomendes/github/apparatos/public/system/library/cache.php on line 11
