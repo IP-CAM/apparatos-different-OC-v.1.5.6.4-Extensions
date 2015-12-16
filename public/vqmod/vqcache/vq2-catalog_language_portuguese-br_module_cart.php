@@ -1,0 +1,19 @@
+<?php
+// Heading 
+$_['heading_title'] = 'Carrinho';
+
+// Text
+$_['text_items']    = ' %s item(s) %s ';
+$_['text_empty']    = 'Seu carrinho está vazio!';
+$_['text_cart']     = 'Ver carrinho';
+$_['text_checkout'] = 'Finalizar compra';
+
+$_['text_payment_profile'] = 'Perfil de pagamento';
+
+
+                $_['heading_title']    = 'Minha Lista';
+                $_['text_items']    = '%s item(s)';
+                $_['text_cart']    = 'Ver Lista';
+                $_['text_checkout']    = 'Confirmar';
+            
+?>

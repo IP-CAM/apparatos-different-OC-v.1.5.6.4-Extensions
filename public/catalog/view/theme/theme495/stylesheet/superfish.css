@@ -173,7 +173,7 @@ ul.sf-menu > li > a span{
 }
 /*****************************************************/
 #menu-icon {
-	background: #ae3545;
+	background: #222E35;
     color: #fff;
 	font-family: "Cabin",sans-serif;
     font-size: 20px;
@@ -211,7 +211,7 @@ ul.sf-menu > li > a span{
 	vertical-align:middle;
 }
 #menu-icon:hover:after {
-	color:#ffc95d;
+	color:#222E35;
 }
 #menu-icon.active:after {
 	content:"\f077";

@@ -459,6 +459,10 @@ class ControllerProductProduct extends Controller {
 					$rating = false;
 				}
 
+
+                      $price = null;
+                      
+            
 				$this->data['products'][] = array(
 					'product_id' => $result['product_id'],
 					'thumb'   	 => $image,
@@ -490,6 +494,10 @@ class ControllerProductProduct extends Controller {
 
 			$this->model_catalog_product->updateViewed($this->request->get['product_id']);
 
+
+                      $this->data['price'] = false;
+                      
+            
 			if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/product/product.tpl')) {
 				$this->template = $this->config->get('config_template') . '/template/product/product.tpl';
 			} else {

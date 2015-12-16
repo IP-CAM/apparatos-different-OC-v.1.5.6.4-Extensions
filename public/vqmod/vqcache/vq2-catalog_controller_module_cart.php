@@ -103,6 +103,10 @@ class ControllerModuleCart extends Controller {
 				$total = false;
 			}
 
+
+                      $price = null;
+                      
+            
 			$this->data['products'][] = array(
 				'key'       => $product['key'],
 				'thumb'     => $image,

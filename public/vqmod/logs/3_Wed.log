@@ -1,24 +1,1554 @@
----------- Date: 2014-12-03 10:14:04 ~ IP : 127.0.0.1 ----------
-REQUEST URI : /495/
+---------- Date: 2015-12-16 09:13:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
 MOD DETAILS:
-   modFile   : C:\wamp\www\495\vqmod/xml/tm_product_category.xml
-   id        : Category images
-   version   : 1.0.0
-   vqmver    : 2.3.0
-   author    : TM
-VQModObject::parseMods - Could not resolve path for [catalog/controller/product/manufacturer_info.php] (SKIPPED)
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
 ----------------------------------------------------------------------
 
 
----------- Date: 2014-12-03 14:09:21 ~ IP : 192.168.9.1 ----------
-REQUEST URI : /495/index.php?route=product/product&amp;product_id=34
+---------- Date: 2015-12-16 09:16:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
 MOD DETAILS:
-   modFile   : C:\wamp\www\495\vqmod/xml/tm_product_category.xml
-   id        : Category images
-   version   : 1.0.0
-   vqmver    : 2.3.0
-   author    : TM
-VQModObject::parseMods - Could not resolve path for [catalog/controller/product/manufacturer_info.php] (SKIPPED)
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:16:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:18:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:18:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:18:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:19:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:19:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:19:05 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:19:05 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:37:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:38:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:38:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:39:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:39:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:39:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:39:05 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:39:21 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:46:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 09:59:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:06:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:06:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:06:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:07:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:07:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:09:23 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:09:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:09:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:10:05 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:11:46 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:13:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:13:35 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:18:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:19:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:24:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:27:15 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:27:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:27:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:28:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:28:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:29:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:29:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:29:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:30:23 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:30:57 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:31:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:32:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:32:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:32:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:33:40 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:33:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:34:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:34:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:35:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:35:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:36:39 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:37:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:37:33 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:37:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:40:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:42:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:42:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:43:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:49:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:50:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:51:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:52:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:52:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:53:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:57:40 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 10:58:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:13:35 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:14:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:14:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:15:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:16:34 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:16:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:18:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:20:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:20:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:23:14 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:24:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:25:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:26:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:26:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:26:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:27:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:27:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:27:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:27:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:27:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:28:47 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:28:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:35:37 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:36:23 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:37:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:37:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:37:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:38:05 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:38:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:38:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:38:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:38:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:38:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:38:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:38:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:39:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:39:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:39:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:39:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/category&amp;path=57
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-12-16 11:39:33 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/apparatos/public/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
 ----------------------------------------------------------------------
 
 

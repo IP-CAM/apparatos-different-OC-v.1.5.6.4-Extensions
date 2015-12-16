@@ -264,6 +264,10 @@ class ControllerProductCategory extends Controller {
 					$rating = false;
 				}
 
+
+                      $price = null;
+                      
+            
 				$this->data['products'][] = array(
 					'product_id'  => $result['product_id'],
 					'thumb'       => $image,

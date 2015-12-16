@@ -77,6 +77,10 @@ class ControllerModuleLatest extends Controller {
 				$rating = false;
 			}
 			
+
+                      $price = null;
+                      
+            
 			$this->data['products'][] = array(
 				'product_id' => $result['product_id'],
  'description' =>html_entity_decode($result['description']),

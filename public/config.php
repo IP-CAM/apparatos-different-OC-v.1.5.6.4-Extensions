@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://apparatos.com.br/');
+define('HTTP_SERVER', 'http://apparatos.lojavirtual.local/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://apparatos.com.br/');
+define('HTTPS_SERVER', 'http://apparatos.lojavirtual.local/');
 
 // DIR
 define('DIR_APPLICATION', '/Users/fernandomendes/github/apparatos/public/catalog/');

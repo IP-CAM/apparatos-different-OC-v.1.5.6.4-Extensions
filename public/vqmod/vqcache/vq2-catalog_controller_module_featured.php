@@ -107,6 +107,10 @@ class ControllerModuleFeatured extends Controller {
 					$rating = false;
 				}
 					
+
+                      $price = null;
+                      
+            
 				$this->data['products'][] = array(
 					'product_id' => $product_info['product_id'],
 					'thumb'   	 => $image,

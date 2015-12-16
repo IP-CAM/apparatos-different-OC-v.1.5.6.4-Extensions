@@ -183,14 +183,14 @@
 	font-family: "Open Sans",sans-serif;
 	font-size:20px;
 	line-height:25px;
-	color:#ffbb6b;
+	color:#CA361C;
 	font-weight:300;
 	opacity:0;
 }
 .camera_caption p{
 	font-size:20px;
 	line-height:25px;
-	color:#ffbb6b;
+	color:#CA361C;
 	text-transform:uppercase;
 	max-width:55%;
 }
@@ -208,7 +208,7 @@
 	top:50%;
 	margin-top:-41px;
 	right:5.4%;
-	background:#ffb161;
+	background:#222E35;
 	width:82px;
 	height:82px;
 	text-align:center;
@@ -217,7 +217,7 @@
 	-webkit-border-radius:50%;
 }
 .camera_caption .container a:hover{
-	background:#ffbb6b;
+	background:#CA361C;
 	
 }
 .camera_caption .container a i{
@@ -238,7 +238,7 @@
 	left:0;
 	width:82px;
 	height:82px;
-	background:#ffb161;
+	background:#222E35;
 	border-radius:50%;
 	-moz-border-radius:50%;
 	-webkit-border-radius:50%;

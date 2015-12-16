@@ -1,0 +1,23 @@
+MÓDULO DE ORÇAMENTO OPENCART
+---------------------
+Módulo para transformar o Opencart em um catálogo para orçamento
+
+# Compatilibidade com versões Opencart
+--------------------
+1.5.2, 1.5.2.1, 1.5.3, 1.5.3.1, 1.5.4, 1.5.4.1, 1.5.5, 1.5.5.1, 1.5.6, 1.5.6.1, 1.5.6.2, 1.5.6.3, 1.5.6.4
+
+# Instalação:
+---------------
+1 - Extraia os arquivos e faça upload do conteúdo da pasta "upload" para o seu servidor;
+
+2 - Ative o módulo no painel de administração em Extensões->Módulos.
+
+# Configurando:
+-----------------
+-para não mostrar valores no carrinho, desative os módulos Total e Subtotal em Extensões->Finalização do pedido
+-desativar também os módulos Cupom, Estimativa de frete e Lista de Presentes em Extensões->Finalização do pedido
+
+
+---------------------------
+Em caso de eventualidades no funcionamento do módulo, relatar para atendimento@joseanmatias.com.br.
+---------------------------
