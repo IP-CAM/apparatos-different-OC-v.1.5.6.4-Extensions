@@ -242,8 +242,31 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 						<div class="top-buttons right">	
 						
 							<div class="phone">
-								<?php echo $tx_phone; ?>
-								<?php echo $telephone; ?>
+								<div style="float: right;">(11) 98367-2722</div>
+								<div style="float: right;
+								    		background-color: #65BC54;
+								    		margin-left: 15px;
+    										margin-top: -2px;
+										    border-radius: 50%;
+										    padding: 5px 5px;
+										    max-width: 35px;
+										    margin-right: 5px;
+										    max-height: 35px;">
+    										<img style="margin-top: -10px;" src="/image/whatsappicon.png"></div>
+
+
+								<div style="float: right;"><?php echo $telephone; ?></div>
+								<div style="float: right;
+										    background-color: #222E35;
+										    margin-top: -2px;
+										    border-radius: 50%;
+										    padding: 5px 5px;
+										    max-width: 35px;
+										    margin-right: 5px;">
+    										<img style="margin-top: -10px;" src="/image/phoneicon.png"></div>
+
+
+
 							</div>
 							<div class="clear"></div>
 							
@@ -252,13 +275,14 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 								<div class="cart-inner"><?php echo $cart; ?></div>
 							</div>
 							
-							<ul class="links">
-							<?php if (!$logged) { ?>
-								<?php echo $text_welcome; ?>
-								<?php } else { ?>
-								<?php echo $text_logged; ?>
-							<?php } ?>
-							</ul>
+							<div class="links" style="width: 495px; text-align: center; font-size: 18px;">
+								<div style="margin: auto;
+										    background-color: #222E35;
+										    color: #FFFFFF;
+										    width: 300px;
+										    padding: 12px;
+										    margin-top: -16px;">Entregamos em todo o Brasil</div>
+							</div>
 						
 						</div>
 						

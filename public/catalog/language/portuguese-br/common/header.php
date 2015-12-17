@@ -9,5 +9,5 @@ $_['text_welcome']        = 'Seja bem vindo, visitante! Você pode <a href="%s">
 $_['text_logged']         = 'Você está logado como <a href="%s">%s</a> <b>(</b> <a href="%s">Sair</a> <b>)</b>';
 $_['text_account']        = 'Minha conta';
 $_['text_checkout']       = 'Finalizar orçamento';
-$_['tx_phone']       = 'Atendimento ';
+$_['tx_phone']       = '';
 ?>

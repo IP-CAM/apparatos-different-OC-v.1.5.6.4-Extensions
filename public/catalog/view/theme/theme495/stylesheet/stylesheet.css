@@ -867,18 +867,18 @@ header .header-button .ul a:hover span {
 /*======================= HEADER =======================*/
 header {
 	position: relative;
-	margin-bottom:29px;
+	margin-bottom:10px;
 }
 
 /*======================= LOGO =======================*/
 header #logo a img {
 	vertical-align:top;
-	max-width: 242px;
+	max-width: 115px;
 }
 header #logo {
 	display:inline-block;	
 	float:left;
-	margin: 5px 0 18px 0;
+	margin: -10px 0 18px 25px;
 	max-width:30%;
 }
 header .phone {
@@ -4542,11 +4542,11 @@ table.radio {
 	font-size:20px;
 	line-height:24px;
 	color:#fff;
-	background:#8dc73f;
+	background:#B63923;
 	text-align:center;
 	padding:0 0 5px 0;
 }
 .sticker.sale{
-	background:#f94085;
+	background:#B63923;
 }
 /***/

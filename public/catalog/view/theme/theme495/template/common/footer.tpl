@@ -108,8 +108,8 @@
 	<div>
 		<div class="container">
 			<div class="row">
-				<div style="float: left; width: 50%; padding: 25px;">
-					<img src="/image/data/logo.png" width="125" style="width: 125px;">
+				<div style="float: left; width: 50%; padding: 15px 25px 25px 25px;">
+					<img src="/image/data/logo.png" width="50" style="width: 50px;">
 				</div>
 
 				<div style="float: left; width: 50%; padding: 25px; text-align: right; margin-top: 20px;">
