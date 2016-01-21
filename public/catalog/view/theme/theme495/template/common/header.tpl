@@ -252,7 +252,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 										    max-width: 35px;
 										    margin-right: 5px;
 										    max-height: 35px;">
-    										<img style="margin-top: -10px;" src="/image/whatsappicon.png"></div>
+    										<img style="" src="/image/whatsappicon.png"></div>
 
 
 								<div style="float: right;"><?php echo $telephone; ?></div>
@@ -263,7 +263,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 										    padding: 5px 5px;
 										    max-width: 35px;
 										    margin-right: 5px;">
-    										<img style="margin-top: -10px;" src="/image/phoneicon.png"></div>
+    										<img style="" src="/image/phoneicon.png"></div>
 
 
 
