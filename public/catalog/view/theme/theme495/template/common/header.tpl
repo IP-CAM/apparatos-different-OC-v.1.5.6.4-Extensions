@@ -275,7 +275,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 								<div class="cart-inner"><?php echo $cart; ?></div>
 							</div>
 							
-							<div class="links" style="width: 495px; text-align: center; font-size: 18px;">
+							<div class="links" style="text-align: center; font-size: 18px;">
 								<div style="margin: auto;
 										    background-color: #222E35;
 										    color: #FFFFFF;
