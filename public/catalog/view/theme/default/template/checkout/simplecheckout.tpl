@@ -1,3 +1,12 @@
+<style type="text/css">
+    #simplecheckout_shipping {
+    display: none;
+    }
+    #simplecheckout_payment {
+        display: none;
+    }
+</style>
+
 <?php if (!$ajax && !$popup && !$as_module) { ?>
 <?php
 $simple_page = 'simplecheckout';
