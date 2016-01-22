@@ -3,7 +3,7 @@
 $_['heading_title']                  = 'Finalizar Orçamento';
 
 $_['button_login']                   = 'Logar';
-$_['button_order']                   = 'Finalizar pedido';
+$_['button_order']                   = 'Finalizar Orçamento';
 $_['button_save_changes']            = 'Salvar mudanças';
 $_['button_prev']                    = 'Previous step';
 $_['button_next']                    = 'Next step';
