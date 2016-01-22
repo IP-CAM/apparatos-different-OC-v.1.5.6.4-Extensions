@@ -14,8 +14,6 @@
             <col class="name">
             <col class="model">
             <col class="quantity">
-            <col class="price">
-            <col class="total">
             <col class="remove">
         </colgroup>
         <thead>
@@ -24,8 +22,6 @@
                 <th class="name"><?php echo $column_name; ?></th>
                 <th class="model"><?php echo $column_model; ?></th>
                 <th class="quantity"><?php echo $column_quantity; ?></th>
-                <th class="price"><?php echo $column_price; ?></th>
-                <th class="total"><?php echo $column_total; ?></th>
                 <th class="remove"></th>
             </tr>
         </thead>
@@ -88,8 +84,6 @@
                     <td class="name"><?php echo $voucher_info['description']; ?></td>
                     <td class="model"></td>
                     <td class="quantity">1</td>
-                    <td class="price"><?php echo $voucher_info['amount']; ?></td>
-                    <td class="total"><?php echo $voucher_info['amount']; ?></td>
                     <td class="remove">
                     <img data-onclick="removeGift" data-gift-key="<?php echo $voucher_info['key']; ?>" src="<?php echo $additional_path ?>catalog/view/image/close.png"  />
                     </td>
