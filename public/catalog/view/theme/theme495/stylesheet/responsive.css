@@ -706,7 +706,7 @@
 	#cart .heading span.link_a {
 		height:50px;
 		line-height:50px;
-		border-left:1px solid #eb9d43;
+		border-left:0px;
 		background:none;
 		padding:0;
 		text-align:left;
@@ -1085,7 +1085,7 @@
 		width: 64px;
 		z-index: 100;
 		text-align:center;
-		border-right:1px solid #eb9d43;
+		border-right:0px;
 		float:left;
 	}
 	body #page {

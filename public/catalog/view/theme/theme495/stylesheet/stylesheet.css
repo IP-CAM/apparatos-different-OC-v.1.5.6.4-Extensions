@@ -1169,7 +1169,7 @@ header #cart .empty {
 /*======================= TOP SEARCH =======================*/
 .top-search  {
 	line-height:50px;
-	border-right:1px solid #eb9d43;
+	border-right:0px;
 	display:inline-block;
 	padding:0 20px;
 }
