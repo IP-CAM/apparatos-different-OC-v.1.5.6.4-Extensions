@@ -90,38 +90,6 @@
     </tbody>
 </table>
 
-<?php foreach ($totals as $total) { ?>
-    <div class="simplecheckout-cart-total" id="total_<?php echo $total['code']; ?>">
-        <span><b><?php echo $total['title']; ?>:</b></span>
-        <span class="simplecheckout-cart-total-value"><?php echo $total['text']; ?></span>
-        <span class="simplecheckout-cart-total-remove">
-            <?php if ($total['code'] == 'coupon') { ?>
-            <img data-onclick="removeCoupon" src="<?php echo $additional_path ?>catalog/view/image/close.png" />
-            <?php } ?>
-            <?php if ($total['code'] == 'voucher') { ?>
-            <img data-onclick="removeVoucher" src="<?php echo $additional_path ?>catalog/view/image/close.png" />
-            <?php } ?>
-            <?php if ($total['code'] == 'reward') { ?>
-            <img data-onclick="removeReward" src="<?php echo $additional_path ?>catalog/view/image/close.png" />
-            <?php } ?>
-        </span>
-    </div>
-<?php } ?>
-<?php if (isset($modules['coupon'])) { ?>
-    <div class="simplecheckout-cart-total">
-        <span class="inputs"><?php echo $entry_coupon; ?>&nbsp;<input type="text" data-onchange="reloadAll" name="coupon" value="<?php echo $coupon; ?>" /></span>
-    </div>
-<?php } ?>
-<?php if (isset($modules['reward']) && $points > 0) { ?>
-    <div class="simplecheckout-cart-total">
-        <span class="inputs"><?php echo $entry_reward; ?>&nbsp;<input type="text" name="reward" data-onchange="reloadAll" value="<?php echo $reward; ?>" /></span>
-    </div>
-<?php } ?>
-<?php if (isset($modules['voucher'])) { ?>
-    <div class="simplecheckout-cart-total">
-        <span class="inputs"><?php echo $entry_voucher; ?>&nbsp;<input type="text" name="voucher" data-onchange="reloadAll" value="<?php echo $voucher; ?>" /></span>
-    </div>
-<?php } ?>
 <?php if (isset($modules['coupon']) || (isset($modules['reward']) && $points > 0) || isset($modules['voucher'])) { ?>
     <div class="simplecheckout-cart-total simplecheckout-cart-buttons">
         <span class="inputs buttons"><a id="simplecheckout_button_cart" data-onclick="reloadAll" class="button btn-primary button_oc btn"><span><?php echo $button_update; ?></span></a></span>
