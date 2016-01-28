@@ -4549,3 +4549,43 @@ table.radio {
 	background:#B63923;
 }
 /***/
+
+
+
+/* WEBCA */
+.shipping-wrap {
+    background: #474747;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.shipping p {
+    background: url("/image/ship.png") left center no-repeat;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 14px;
+    padding-left: 70px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.shipping {
+    text-align: center;
+}
+.buttonss {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+    background: #ffffff;
+    border-radius: 10px;
+    font: 700 16px 'Open Sans' sans-serif;
+    padding: 10px 21px;
+    text-transform: uppercase;
+    color: #CA361C;
+}
+@media (max-width: 1199px) {
+	.shipping-wrap {
+		display: none;
+	}
+}

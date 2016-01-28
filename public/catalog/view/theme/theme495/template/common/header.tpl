@@ -273,14 +273,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 								<div class="cart-inner"><?php echo $cart; ?></div>
 							</div>
 							
-							<div class="links" style="text-align: center; font-size: 18px;">
-								<div style="margin: auto;
-										    background-color: #222E35;
-										    color: #FFFFFF;
-										    width: 300px;
-										    padding: 12px;
-										    margin-top: -16px;">Entregamos em todo o Brasil</div>
-							</div>
+		
 						
 						</div>
 						
@@ -363,6 +356,19 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 				<?php } ?>	
 			
 		</header>
+
+		<div class="shipping-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="shipping">
+                    <p><span style="font-weight: bold; margin-right: 20px;">ENTREGA RÁPIDA </span> Apparatos - Entregamos em todo o Brasil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 		<section>
 		<?php if ($header_top) {?>
 			<!-- Header Top position -->

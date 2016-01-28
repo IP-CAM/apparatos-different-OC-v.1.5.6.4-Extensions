@@ -50,7 +50,7 @@
 					<?php if ($category['thumb']) { ?>
 					<div class="image"><a href="<?php echo $category['href']; ?>"><img src="<?php echo $category['thumb']; ?>" alt="<?php echo $category['name']; ?>" /></a></div>
 					<?php } ?>
-					<div class="name subcatname"><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></div>
+					<div class="name subcatname" style="height: 35px !important; padding: 0px !important;"><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></div>
 					</div>
 				</li>
 				<?php } ?>
