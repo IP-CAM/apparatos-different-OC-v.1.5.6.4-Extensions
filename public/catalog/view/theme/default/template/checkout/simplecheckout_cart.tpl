@@ -110,7 +110,7 @@
 
 <script type="text/javascript">
     $( document ).ready(function() {
-        $("#customer_register").attr('checked', false);
+        $("#customer_register").val(0);
     });
 
 </script>
