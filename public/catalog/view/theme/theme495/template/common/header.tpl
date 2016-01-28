@@ -244,9 +244,8 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 							<div class="phone">
 								<div style="float: right;">(11) 98367-2722</div>
 								<div style="float: right;
-								    		background-color: #65BC54;
 								    		margin-left: 15px;
-    										margin-top: -2px;
+    										margin-top: -5px;
 										    border-radius: 50%;
 										    padding: 5px 5px;
 										    max-width: 35px;
@@ -257,8 +256,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 
 								<div style="float: right;"><?php echo $telephone; ?></div>
 								<div style="float: right;
-										    background-color: #222E35;
-										    margin-top: -2px;
+										    margin-top: -5px;
 										    border-radius: 50%;
 										    padding: 5px 5px;
 										    max-width: 35px;
@@ -386,4 +384,4 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 					<div class="warning"><?php echo $error ?><img src="catalog/view/theme/theme495/image/close-1.png" alt="" class="close" /></div>
 					<?php } ?>
 					<div id="notification"></div>
-					<div class="row" style="border-top: solid 1px #222E35; padding-top: 30px; margin-top: -20px;">
+					<div class="row">

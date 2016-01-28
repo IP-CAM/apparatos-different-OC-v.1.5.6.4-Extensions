@@ -2038,11 +2038,11 @@ aside .info li a:hover,
 	background:#3d3d3d;
 }
 .content-bottom  img{
-	max-width:61%;
+	width:100%;
 }
 .content-bottom  .s-desc{
 	position:relative;
-	display:inline-block;
+	display:none;
 	width:auto;
 	font-family: "Cabin",sans-serif;
 	font-weight:500;
