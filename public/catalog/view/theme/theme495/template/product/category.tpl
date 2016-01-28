@@ -115,7 +115,7 @@
 						  $logic=1; }
 				}
 				if ($product['special'] && $logic==0 ) { ?>
-				<span class="sticker sale"><?php echo $sale; ?></span>
+				<span class="sticker sale">Promoção</span>
 				<?php  } ?>
 		<!-- sticker -->
 		</a>
