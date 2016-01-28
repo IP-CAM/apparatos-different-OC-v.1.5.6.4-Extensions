@@ -73,7 +73,7 @@
 								<div class="product_button">									
 									<div class="cart">
 										<a title="<?php echo $button_cart; ?>" data-id="<?php echo $product['product_id']; ?>;" class="button addToCart tooltip-1">
-											<i class="fa fa-shopping-cart"></i>
+											<i class="fa fa-shopping-cart"> Orçar</i>
 										</a>
 									</div>
 								</div>

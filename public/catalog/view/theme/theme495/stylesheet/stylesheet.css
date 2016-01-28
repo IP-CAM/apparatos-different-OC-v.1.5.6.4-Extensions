@@ -963,17 +963,17 @@ header .phone {
 }
 #cart .content {
 	clear: both;
-	display:none;
-	position: absolute;
-	text-align:left;
-	top:100%;
-	margin-top:0;
-	color:#222E35;
-	background:#CA361C;
-	width:257px;
-	padding:20px;
-	right:0;
-	border:1px solid #222E35;
+    display: none;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    margin-top: 0;
+    color: #222E35;
+    width: 257px;
+    padding: 20px;
+    right: 0;
+    background: #f9f9f9;
+    border: 1px solid #efefef !important;
 }
 header #cart.active .content {
 	display: block;
@@ -999,7 +999,7 @@ header #cart .cart td.name a {
 	margin-top:0;
 	display:inline-block;
 	margin-bottom:5px;
-	color:#fff;
+	color:#333;
 }
 header #cart .cart td.name a:hover {
 	color:#fff7a7;
@@ -2149,12 +2149,11 @@ a.button-prod span,
 .preview .cart a.button,
 .product-grid .cart a.button,
 .product-list .cart a.button{
-	width:44px;
-	height:39px;
-	line-height:39px;
-	padding:0;
-	text-align:center;
-	display:inline-block;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 15px;
+    text-align: center;
+    display: inline-block;
 }
 .product-grid .product_button,
 .box .box-product .product_button,

@@ -67,8 +67,8 @@
 		</table>
 		</div>
 		<div class="checkout">
-				<a class="button" href="<?php echo $cart; ?>"><span><?php echo $text_cart; ?></span></a> 
-				<a class="button" href="<?php echo $checkout; ?>"><span><?php echo $text_checkout; ?></span></a>
+				
+				<a class="button" href="<?php echo $checkout; ?>"><span>Confirmar Orçamento</span></a>
 		</div>
 		<?php } else { ?>
 		<div class="empty"><?php echo $text_empty; ?></div>

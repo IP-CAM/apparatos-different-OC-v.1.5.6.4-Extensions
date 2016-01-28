@@ -446,7 +446,7 @@
 				<?php } ?>
 				
 			<div class="product_button">
-				<div class="cart"><a title="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="tooltip-2 button"><i class="fa fa-shopping-cart"></i></a></div><div class="wishlist"><a title="<?php echo $button_wishlist; ?>" class="tooltip-2" onclick="addToWishList('<?php echo $product['product_id']; ?>');"><i class="fa fa-star"></i></a></div><div class="compare"><a title="<?php echo $button_compare; ?>" class="tooltip-2" onclick="addToCompare('<?php echo $product['product_id']; ?>');"><i class="fa fa-bar-chart-o"></i></a></div>
+				<div class="cart"><a title="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="tooltip-2 button"><i class="fa fa-shopping-cart"> Orçar</i></a></div><div class="wishlist"><a title="<?php echo $button_wishlist; ?>" class="tooltip-2" onclick="addToWishList('<?php echo $product['product_id']; ?>');"><i class="fa fa-star"></i></a></div><div class="compare"><a title="<?php echo $button_compare; ?>" class="tooltip-2" onclick="addToCompare('<?php echo $product['product_id']; ?>');"><i class="fa fa-bar-chart-o"></i></a></div>
 			</div>
 			<span class="clear"></span>	
 			

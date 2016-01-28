@@ -22,8 +22,8 @@
         <operation error="log">
             <search position="before"><![CDATA[?>]]></search>
             <add><![CDATA[
-                $_['text_cart']           = 'Minha Lista';
-                $_['text_shopping_cart']           = 'Minha Lista';
+                $_['text_cart']           = 'Meu Orçamento';
+                $_['text_shopping_cart']           = 'Meu Orçamento';
                 ]]></add>
         </operation>
     </file>
@@ -46,7 +46,7 @@
             <search position="before"><![CDATA[?>]]>
             </search>
             <add><![CDATA[
-                $_['heading_title']    = 'Minha Lista';
+                $_['heading_title']    = 'Meu Orçamento';
                 $_['text_items']    = '%s item(s)';
                 $_['text_cart']    = 'Ver Lista';
                 $_['text_checkout']    = 'Confirmar';
