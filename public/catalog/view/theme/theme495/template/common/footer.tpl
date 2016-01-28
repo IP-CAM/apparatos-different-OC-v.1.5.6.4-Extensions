@@ -47,7 +47,12 @@
 	}
 	.spanfooter:hover {
 		background-color: #CA361C;
+		color: #FFF;
 	}
+	.spanfooter:hover a {
+		color: #FFF;
+	}
+
 
 	</style>
 
@@ -59,9 +64,9 @@
 					<div style="text-align: left; font-size: 24px;">Apparatos</div>
 					<div>
 						<ul style="text-align: left;">
-							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter">Home</span></li>
-							<li class="lifooter"><span class="spanfooter">Sobre Nós</span></li>
-							<li class="lifooter"><span class="spanfooter">Fale Conosco</span></li>
+							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter"><a href="/">Home</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/sobre">Sobre Nós</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/index.php?route=information/contact">Fale Conosco</a></span></li>
 						</ul>
 					</div>
 				</div>
@@ -70,13 +75,13 @@
 					<div style="text-align: left; font-size: 24px;">Categorias</div>
 					<div>
 						<ul style="text-align: left;">
-							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter">Brindes</span></li>
-							<li class="lifooter"><span class="spanfooter">Gift</span></li>
-							<li class="lifooter"><span class="spanfooter">Informática</span></li>
-							<li class="lifooter"><span class="spanfooter">Papelaria</span></li>
-							<li class="lifooter"><span class="spanfooter">Portfolio</span></li>
-							<li class="lifooter"><span class="spanfooter">PowerBank</span></li>
-							<li class="lifooter"><span class="spanfooter">Uniformes</span></li>
+							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter"><a href="/brindes">Brindes</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/gift">Gift</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/informatica">Informática</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/papelaria">Papelaria</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/portifolio">Portfolio</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/powerbank">PowerBank</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/uniformes">Uniformes</a></span></li>
 						</ul>
 					</div>
 				</div>
@@ -85,9 +90,9 @@
 					<div style="text-align: left; font-size: 24px;">Atendimento</div>
 					<div>
 						<ul style="text-align: left;">
-							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter">Contate-nos</span></li>
-							<li class="lifooter"><span class="spanfooter">Devoluções</span></li>
-							<li class="lifooter"><span class="spanfooter">Mapa do Site</span></li>
+							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter"><a href="/index.php?route=information/contact">Contate-nos</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/index.php?route=account/return">Devoluções</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="/index.php?route=information/sitemap">Mapa do Site</a></span></li>
 						</ul>
 					</div>
 				</div>
@@ -97,7 +102,7 @@
 					<div>
 						<ul style="text-align: left;">
 							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter">(11) 4399-1515</span></li>
-							<li class="lifooter"><span class="spanfooter">orcamento@apparatos.com.br</span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="mailto:orcamento@apparatos.com.br">orcamento@apparatos.com.br</a></span></li>
 						</ul>
 					</div>
 				</div>

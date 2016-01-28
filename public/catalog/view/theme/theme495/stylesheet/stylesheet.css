@@ -3975,8 +3975,8 @@ footer .social li a:hover{
 	text-decoration:none;
 }
 #copyright a:hover {
-	color:#CA361C;
-	text-decoration:underline;
+	color: #FFF;
+    text-decoration: none;
 }
 #copyright {
 	font-family: "Cabin",sans-serif;
