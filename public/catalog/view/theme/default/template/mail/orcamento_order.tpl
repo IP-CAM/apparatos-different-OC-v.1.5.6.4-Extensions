@@ -29,14 +29,6 @@
       </tr>
       <?php } ?>
     </tbody>
-    <tfoot>
-      <?php foreach ($totals as $total) { ?>
-      <tr>
-        <td style="font-size: 12px;	border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; text-align: right; padding: 7px;" colspan="4"><b><?php echo $total['title']; ?>:</b></td>
-        <td style="font-size: 12px;	border-right: 1px solid #DDDDDD; border-bottom: 1px solid #DDDDDD; text-align: right; padding: 7px;"><?php echo $total['text']; ?></td>
-      </tr>
-      <?php } ?>
-    </tfoot>
   </table>
   <p style="margin-top: 0px; margin-bottom: 20px;"><?php echo $text_footer; ?></p>
   <p style="margin-top: 0px; margin-bottom: 20px;"><?php echo $text_powered; ?></p>
