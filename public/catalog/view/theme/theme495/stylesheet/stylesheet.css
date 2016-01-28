@@ -2117,7 +2117,7 @@ a.button-prod:hover,
 }
 .wishlist a,
 .compare a{
-	display:inline-block;
+	display: none;
 	position:relative;
 	overflow:hidden;
 	width:44px;

@@ -74,7 +74,7 @@
 			<?php if ($reward) { ?>
 			<span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
 			<?php } ?>
-			<span><?php echo $text_stock; ?></span><div class="prod-stock"><?php echo $stock; ?></div>
+			<?php /* <span><?php echo $text_stock; ?></span><div class="prod-stock"><?php echo $stock; ?></div> */ ?>
 		</div>
 		
 	  <?php if ($price) { ?>
