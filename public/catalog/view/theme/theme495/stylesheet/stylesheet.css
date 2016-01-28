@@ -1698,7 +1698,6 @@ li li.parent > i {
 	width:100%;
 	padding:8px 25px 7px 15px;	
 	text-transform:uppercase;
-	text-align:center;
 }
 .box-category > ul > li.active>a, 
 .box-category > ul > li>a:hover {
