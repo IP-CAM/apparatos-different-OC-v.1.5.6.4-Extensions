@@ -105,12 +105,3 @@
     </style>
 <?php } ?>
 </div>
-
-
-
-<script type="text/javascript">
-    $( document ).ready(function() {
-        $("#customer_register").val(0);
-    });
-
-</script>
