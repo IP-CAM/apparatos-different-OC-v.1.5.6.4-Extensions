@@ -109,7 +109,7 @@
 					<div>
 						<ul style="text-align: left;">
 							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter">(11) 4399-1515</span></li>
-							<li class="lifooter"><span class="spanfooter"><a href="mailto:orcamento@apparatos.com.br">sac@apparatos.com.br</a></span></li>
+							<li class="lifooter"><span class="spanfooter"><a href="mailto:sac@apparatos.com.br">sac@apparatos.com.br</a></span></li>
 						</ul>
 					</div>
 				</div>
