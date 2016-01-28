@@ -105,3 +105,12 @@
     </style>
 <?php } ?>
 </div>
+
+
+
+<script type="text/javascript">
+    $( document ).ready(function() {
+        $("#customer_register").attr('checked', false);
+    });
+
+</script>

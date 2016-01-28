@@ -1336,7 +1336,7 @@ aside .box.specials .box-heading{
 	top:0;
 	left:0;
 	position: absolute;
-	display:inline-block;
+	display:none;
 	font-size:22px;
 	color:#fea5a0;
 	line-height:30px;
