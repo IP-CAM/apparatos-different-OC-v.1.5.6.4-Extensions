@@ -52,7 +52,15 @@
 	.spanfooter:hover a {
 		color: #FFF;
 	}
-
+	.colfooter {
+		width: 25%;
+	}
+	@media (max-width: 1199px) {
+		.colfooter {
+			width: 100%;
+			margin-top: 20px;
+		}
+	}
 
 	</style>
 
@@ -60,7 +68,7 @@
 		<!-- copyright -->
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-2" style="width: 25%;">
+				<div class="col-sm-2 colfooter">
 					<div style="text-align: left; font-size: 24px;">Apparatos</div>
 					<div>
 						<ul style="text-align: left;">
@@ -71,7 +79,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-2" style="width: 25%;">
+				<div class="col-sm-2 colfooter">
 					<div style="text-align: left; font-size: 24px;">Categorias</div>
 					<div>
 						<ul style="text-align: left;">
@@ -86,18 +94,17 @@
 					</div>
 				</div>
 
-				<div class="col-sm-2" style="width: 25%;">
+				<div class="col-sm-2 colfooter">
 					<div style="text-align: left; font-size: 24px;">Atendimento</div>
 					<div>
 						<ul style="text-align: left;">
 							<li class="lifooter" style="margin-top: 25px;"><span class="spanfooter"><a href="/index.php?route=information/contact">Contate-nos</a></span></li>
-							<li class="lifooter"><span class="spanfooter"><a href="/index.php?route=account/return">Devoluções</a></span></li>
 							<li class="lifooter"><span class="spanfooter"><a href="/index.php?route=information/sitemap">Mapa do Site</a></span></li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="col-sm-2" style="width: 25%;">
+				<div class="col-sm-2 colfooter">
 					<div style="text-align: left; font-size: 24px;">Fale Conosco</div>
 					<div>
 						<ul style="text-align: left;">
