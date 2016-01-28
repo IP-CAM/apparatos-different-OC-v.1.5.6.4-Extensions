@@ -28,7 +28,7 @@
 				<div class="col-sm-4" style="width: 16%;">
 					<div style="display: inline-block; margin-top: 15px;">Siga:</div>
 					<ul class="social" style="margin-top: 18px;">
-						<li><a title="Facebook" class="tooltip-2" href="http://facebook.com/apparatosbrindes"><i class="fa fa-facebook"></i></a></li>
+						<li><a title="Facebook" class="tooltip-2" href="http://facebook.com/apparatosbrindes" target="_blank"><i class="fa fa-facebook"></i></a></li>
 						<li><a title="Linkedin" class="tooltip-2" href="http://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 				</div>
