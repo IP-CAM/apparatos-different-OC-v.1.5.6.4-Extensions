@@ -1,3 +1,11 @@
+<style type="text/css">
+.box-category > ul > li ul {
+    display: block;
+    padding: 10px 0 10px 20px;
+    background: #efefef;
+}
+</style>
+
 <div class="box category">
 	<div class="box-heading"><?php echo $heading_title; ?></div>
   <div class="box-content">
