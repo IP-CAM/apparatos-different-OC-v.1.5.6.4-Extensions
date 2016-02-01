@@ -9,7 +9,7 @@
 <body>
 <?php foreach ($orders as $order) { ?>
 <div style="page-break-after: always;">
-  <h1><?php echo $text_invoice; ?></h1>
+  <h1>Orçamento</h1>
   <table class="store">
     <tr>
       <td><?php echo $order['store_name']; ?><br />
@@ -34,15 +34,6 @@
           <tr>
             <td><b><?php echo $text_order_id; ?></b></td>
             <td><?php echo $order['order_id']; ?></td>
-          </tr>
-          <tr>
-            <td><b><?php echo $text_payment_method; ?></b></td>
-            <td><?php echo $order['payment_method']; ?></td>
-          </tr>
-          <?php if ($order['shipping_method']) { ?>
-          <tr>
-            <td><b><?php echo $text_shipping_method; ?></b></td>
-            <td><?php echo $order['shipping_method']; ?></td>
           </tr>
           <?php } ?>
         </table></td>
