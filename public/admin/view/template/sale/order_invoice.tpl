@@ -35,7 +35,6 @@
             <td><b><?php echo $text_order_id; ?></b></td>
             <td><?php echo $order['order_id']; ?></td>
           </tr>
-          <?php } ?>
         </table></td>
     </tr>
   </table>
