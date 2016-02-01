@@ -4,6 +4,28 @@
 </div>
 <div class="clear"></div>
 </section>
+
+
+<script type="text/javascript">
+  function emailadd() {
+  	//Get
+    var bla = $('#email').val();
+
+    if (bla == '') {
+    	alert('Digite o email');
+    	document.getElementById('email').focus();
+    } else {
+	    $.ajax({url: "/emailadd.php?email="+bla, success: function(result){
+	        //$("#newsajax").append(result);
+	        //alert(result);
+	        alert(result);
+	        $('#email').val('');
+	    }});
+    }
+	
+  }
+</script>
+
 <!-- Footer -->
 <footer>
 	<div class="container">
@@ -21,8 +43,8 @@
 					<div class="foot-address">
 						<div style="border-right: dotted 1px #fefefe; display: inline-block; padding: 15px;">Newsletter</div>
 						<div style="display: inline-block; padding: 15px; font-size: 17px;">Receba nossas novidades e promoções em seu e-mail:</div>
-						<div style="display: inline-block; padding: 15px 0px; font-size: 17px;"><input type="text" placeholder="Digite seu email"></div>
-						<div style="display: inline-block; padding: 15px 0px; font-size: 17px;"><img src="/image/mailicon.png"></div>
+						<div style="display: inline-block; padding: 15px 0px; font-size: 17px;"><input name="email" id="email" type="text" placeholder="Digite seu email"></div>
+						<div style="display: inline-block; padding: 15px 0px; font-size: 17px;"><a><img src="/image/mailicon.png" onclick="javascript: emailadd();"></a></div>
 					</div>	
 				</div>
 				<div class="col-sm-4" style="width: 16%;">
