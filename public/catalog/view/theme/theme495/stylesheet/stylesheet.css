@@ -1215,7 +1215,8 @@ header #cart .empty {
 	margin:0;
 	padding:9px 10px;	
 	margin:10px 0;
-	border:1px solid rgba(255, 255, 255, 0.32);
+	border: 0px;
+    border-bottom: solid 2px #FFF;
 	}
 /*======================= HEADER MODULES =======================*/
 .header-modules {
@@ -4588,3 +4589,21 @@ table.radio {
 		display: none;
 	}
 }
+
+/* Cor do placeholder */
+::-webkit-input-placeholder {
+   color: #FFF !important;
+}
+
+:-moz-placeholder {
+   color: #FFF !important;
+}
+
+::-moz-placeholder {
+   color: #FFF !important;
+}
+
+:-ms-input-placeholder {  
+   color: #FFF !important;
+}
+/* FIM - Cor do placeholder */
