@@ -873,13 +873,13 @@ header {
 /*======================= LOGO =======================*/
 header #logo a img {
 	vertical-align:top;
-	max-width: 115px;
+	max-width: 255px;
+    margin-top: 15px;
 }
 header #logo {
 	display:inline-block;	
 	float:left;
-	margin: 0px 0 18px 25px;
-	max-width:30%;
+	margin: 0px 0 18px 0px;
 }
 header .phone {
     float: right;
