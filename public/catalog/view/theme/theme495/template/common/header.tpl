@@ -126,20 +126,44 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 <?php } ?>
 
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
+
+<script>
+(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5&appId=456589514493827";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<!-- Google Code for or&ccedil;amento Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 956717877;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "VTZRCN3us2MQtbaZyAM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/956717877/?label=VTZRCN3us2MQtbaZyAM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
 
 <!-- Google Code for telefone Conversion Page
 In your html page, add the snippet and call
 goog_report_conversion when someone clicks on the
 phone number link or button. -->
 <script type="text/javascript">
-  / <![CDATA[ /
+  /* <![CDATA[ */
   goog_snippet_vars = function() {
     var w = window;
     w.google_conversion_id = 956717877;
@@ -161,12 +185,14 @@ phone number link or button. -->
     conv_handler(opt);
   }
 }
-/ ]]> /
+/* ]]> */
 </script>
 <script type="text/javascript"
   src="//www.googleadservices.com/pagead/conversion_async.js">
 </script>
 
+
+<!-- Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -175,8 +201,9 @@ phone number link or button. -->
 
   ga('create', 'UA-60318945-1', 'auto');
   ga('send', 'pageview');
-
 </script>
+
+
 
 <?php echo $google_analytics; ?>
 </head>
