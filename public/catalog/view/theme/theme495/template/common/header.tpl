@@ -138,25 +138,6 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 </script>
 
 
-<!-- Google Code for or&ccedil;amento Conversion Page -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 956717877;
-var google_conversion_language = "en";
-var google_conversion_format = "3";
-var google_conversion_color = "ffffff";
-var google_conversion_label = "VTZRCN3us2MQtbaZyAM";
-var google_remarketing_only = false;
-/* ]]> */
-</script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-<noscript>
-<div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/956717877/?label=VTZRCN3us2MQtbaZyAM&amp;guid=ON&amp;script=0"/>
-</div>
-</noscript>
-
 
 <!-- Google Code for telefone Conversion Page
 In your html page, add the snippet and call
