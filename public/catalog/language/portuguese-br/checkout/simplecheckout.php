@@ -10,7 +10,7 @@ $_['button_next']                    = 'Next step';
 
 // Text
 $_['text_cart']                      = 'Carrinho de compras';
-$_['text_checkout_customer']         = 'Já sou cliente';
+$_['text_checkout_customer']         = 'Meus dados';
 $_['text_checkout_customer_login']   = 'Clique aqui para Logar';
 $_['text_checkout_customer_cancel']  = 'Cancelar';
 $_['text_checkout_shipping_method']  = 'Forma de Envio';

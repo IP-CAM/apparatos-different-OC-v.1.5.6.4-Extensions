@@ -773,7 +773,6 @@ header .links .login_h a {
 .nav__primary  .links li{
 	float:left;
 	margin-right:15px;
-	min-width: 148px;
 }
 /*======================= CONTAINER =======================*/
 #container {
@@ -818,6 +817,7 @@ header .top-buttons{
 	display:inline-block;
 	float:right;
 	max-width:70%;
+	margin-top: 35px;
 }
 header .header-button>div {
 	display:inline-block;
@@ -893,14 +893,14 @@ header .phone {
 	float:right;
 	display:inline-block;
 	position:relative;
-	margin:0 0 10px 92px;	
+	margin: 8px 0 10px 92px;	
 }
 #cart {
 	z-index:24;
 	position:relative;
 }
 #cart .heading span.link_a i.fa-shopping-cart{
-	color:#fff;
+	color: #CA361C;
 	font-size:18px;
 	line-height:22px;
 	text-align:center;
@@ -915,7 +915,7 @@ header .phone {
 }
 #cart .heading span.link_a strong, #cart .heading span.link_a b{
 	font-family: "Cabin",sans-serif;
-	color:#fff;
+	color: #CA361C;
 	font-size:14px;
 	line-height:22px;
 	font-weight:600;
@@ -925,7 +925,6 @@ header .phone {
 	display:inline-block;
 	padding:10px 18px 10px 14px;
 	height:42px;
-	background:#222E35;
 	float:left;
 }
 #cart .heading span.link_a i.fa.fa-angle-down  {
@@ -953,7 +952,7 @@ header .phone {
 	padding:12px 14px 12px 11px;
 	height:42px;
 	vertical-align:top;
-	border:1px solid #222E35;
+	border: 1px solid #FFF;
 }
 #cart.active .content {
 	display:block;
@@ -1193,30 +1192,28 @@ header #cart .empty {
 	display:inline-block;	
 }
 #search .button-search {
-	float:right;
-	font-size:16px;
-	line-height:19px;
-	margin:18px 0 0 10px;
-	color:#fff;
-	overflow:hidden;
+    float: right;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 18px 0 0 10px;
+    color: #474747;
+    overflow: hidden;
 }
 #search .button-search:hover {
 	color:#222E35;
 	cursor:pointer;	
 }
 #search input {
-	float:left;
-	color:#fff;
-	border-radius:0;
-	font-size:14px;
-	line-height:18px;
-	height:36px;
-	max-width:200px;
-	margin:0;
-	padding:9px 10px;	
-	margin:10px 0;
-	border: 0px;
-    border-bottom: solid 2px #FFF;
+	float: left;
+    color: #474747;
+    border-radius: 0;
+    font-size: 14px;
+    line-height: 18px;
+    height: 36px;
+    max-width: 200px;
+    padding: 9px 10px;
+    margin: 10px 0;
+    border: solid 1px #DDD;
 	}
 /*======================= HEADER MODULES =======================*/
 .header-modules {
@@ -1680,7 +1677,7 @@ li li.parent > i {
 }
 .box.category li{
 	position:relative;
-	background:#f9f9f9;
+	background: #CA361C;
 	border:1px solid #efefef;
 	margin:4px 0;
 }
@@ -1693,7 +1690,7 @@ li li.parent > i {
 	display:inline-block;
 	font-family: "Cabin",sans-serif;
 	position:relative;
-	color:#2e2e2e;
+    color: #FFFFFF;
 	font-size:12px;
 	line-height:14px;
 	width:100%;
@@ -2900,8 +2897,10 @@ table.radio tbody td {
 	vertical-align:middle;
 }
 .contact-info .contact-box {
-	margin-bottom:20px;
-	line-height:26px;
+	margin-bottom: 20px;
+    line-height: 26px;
+    float: left;
+    width: 50%;
 }
 .contact-info .contact-box b{
 	color: #000;
@@ -3490,6 +3489,7 @@ h1.style-1 {
 }
 .product-info .cart-top-padd input[type="text"]{
 	height:32px;
+    width: 80px;
 	vertical-align:top;
 }
 .product-info h1.view {

@@ -252,15 +252,38 @@ phone number link or button. -->
 					<div class="row">
 					<div class="col-sm-12">
 					<ul class="links">
-							<?php if (!isset($this->request->get['route'])) { $route='active'; }  else {$route='';}?> <li class="first"><a class="<?php echo $route; if (isset($this->request->get['route']) && $this->request->get['route']=="common/home") {echo "active";} ?>" href="<?php echo $home; ?>"><i class="fa fa-home"></i><span><?php echo $text_home; ?></span></a></li>
-							<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i><?php echo $text_checkout; ?></a></li>							
+							<?php if (!isset($this->request->get['route'])) { $route='active'; }  else {$route='';}?> 
+
+							<li class="first"><a class="<?php echo $route; if (isset($this->request->get['route']) && $this->request->get['route']=="common/home") {echo "active";} ?>" href="<?php echo $home; ?>"><i class="fa fa-home"></i><span><?php echo $text_home; ?></span></a></li>
+							
+							<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i><?php echo $text_checkout; ?></a></li>
+
+							<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="/catalogo/catalogo/" target="_blank"><i class="fa fa-check"></i>Veja nosso catálogo</a></li>							
 						</ul>
+
+
+						<style type="text/css">
+						#telefone {
+							float: right;
+							height: 55px;
+						}
+						#telefone .button-telefone {
+						    float: right;
+						    font-size: 16px;
+						    line-height: 19px;
+						    margin: 18px 0 0 10px;
+						    color: #fff;
+						    overflow: hidden;
+						}
+						</style>
 						
 						<!-- search -->
-						<div id="search" style="margin-right: 0px;">
+						<div id="telefone" style="margin-right: 0px;">
 							<div class="inner">
-								<div class="button-search"><i class="fa fa-search"></i></div>
-								<input type="search" name="search" placeholder="Buscar" value="" />
+								<div class="button-telefone">
+									<i class="fa fa-whatsapp"></i> (11) 98367-2722 &nbsp;&nbsp;
+									<i class="fa fa-phone"></i> <?php echo $telephone; ?>
+								</div>
 							</div>
 						</div>
 						
@@ -284,33 +307,13 @@ phone number link or button. -->
 						<?php } ?>
 						
 						<div class="top-buttons right">	
-						
-							<div class="phone">
-								<div style="float: right;">(11) 98367-2722</div>
-								<div style="float: right;
-								    		margin-left: 15px;
-    										margin-top: -5px;
-										    border-radius: 50%;
-										    padding: 5px 5px;
-										    max-width: 35px;
-										    margin-right: 5px;
-										    max-height: 35px;">
-    										<img style="" src="/image/whatsappicon.png"></div>
-
-
-								<div style="float: right;"><?php echo $telephone; ?></div>
-								<div style="float: right;
-										    margin-top: -5px;
-										    border-radius: 50%;
-										    padding: 5px 5px;
-										    max-width: 35px;
-										    margin-right: 5px;">
-    										<img style="" src="/image/phoneicon.png"></div>
-
-
-
+						<!-- search -->
+						<div id="search" style="margin-right: 0px;">
+							<div class="inner">
+								<div class="button-search"><i class="fa fa-search"></i></div>
+								<input type="search" name="search" placeholder="Buscar" value="" />
 							</div>
-							<div class="clear"></div>
+						</div>
 							
 							<!-- Cart -->
 							<div class="cart-position">
