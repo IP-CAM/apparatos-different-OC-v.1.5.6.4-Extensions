@@ -872,9 +872,9 @@ header {
 
 /*======================= LOGO =======================*/
 header #logo a img {
-	vertical-align:top;
-	max-width: 255px;
+	vertical-align: top;
     margin-top: 15px;
+    max-height: 68px;
 }
 header #logo {
 	display:inline-block;	
