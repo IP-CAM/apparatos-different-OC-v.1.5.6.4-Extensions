@@ -117,7 +117,59 @@
           <br />
       </div>
       <?php endif; ?>
-	  <?php if ($options) { ?>
+	  
+<style type="text/css">
+  	.buttom-fim-orc {
+	background: #CA361C;    
+	display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    padding: 12px 15px 13px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	}
+.buttom-fim-orc:hover {
+	    background: #923830;
+	    color: #FFF;
+	}
+</style>
+
+	  <div class="cart">
+		<div class="prod-row">
+			<div class="cart-top">
+				<div class="cart-top-padd form-inline">
+					<label><?php echo $text_qty; ?>
+						<input class="q-mini" type="text" name="quantity"  value="<?php echo $minimum; ?>" />
+						<input class="q-mini" type="hidden" name="product_id"  value="<?php echo $product_id; ?>" />
+					</label>
+				<a id="button-cart" class="button-prod" ><span>ADICIONAR PARA LISTA DE ORÇAMENTO</span></a>
+
+				<a id="button-cart" class=" buttom-fim-orc" ><span>FINALIZAR ORÇAMENTO</span></a>
+				</div>
+				<div class="extra-button">
+					<div class="wishlist">
+						<a title="<?php echo $button_wishlist; ?>" class="tooltip-1" onclick="addToWishList('<?php echo $product_id; ?>');"><i class="fa fa-star"></i></a>
+					</div><div class="compare">
+						<a title="<?php echo $button_compare; ?>" class="tooltip-1" onclick="addToCompare('<?php echo $product_id; ?>');"><i class="fa fa-bar-chart-o"></i></a>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<?php if ($minimum > 1) { ?>
+				<div class="minimum"><?php echo $text_minimum; ?></div>
+				<?php } ?>
+			</div>
+		</div>
+		</div>
+
+		<?php if ($options) { ?>
 	  <div class="options">
 		<h2><?php echo $text_option; ?></h2>
 		<?php foreach ($options as $option) { ?>
@@ -259,30 +311,8 @@
 		<?php } ?>
 	  </div>
 	  <?php } ?>
-	  <div class="cart">
-		<div class="prod-row">
-			<div class="cart-top">
-				<div class="cart-top-padd form-inline">
-					<label><?php echo $text_qty; ?>
-						<input class="q-mini" type="text" name="quantity"  value="<?php echo $minimum; ?>" />
-						<input class="q-mini" type="hidden" name="product_id"  value="<?php echo $product_id; ?>" />
-					</label>
-				<a id="button-cart" class="button-prod" ><span><?php echo $button_cart; ?></span></a>
-				</div>
-				<div class="extra-button">
-					<div class="wishlist">
-						<a title="<?php echo $button_wishlist; ?>" class="tooltip-1" onclick="addToWishList('<?php echo $product_id; ?>');"><i class="fa fa-star"></i></a>
-					</div><div class="compare">
-						<a title="<?php echo $button_compare; ?>" class="tooltip-1" onclick="addToCompare('<?php echo $product_id; ?>');"><i class="fa fa-bar-chart-o"></i></a>
-					</div>
-				</div>
-				<div class="clear"></div>
-				<?php if ($minimum > 1) { ?>
-				<div class="minimum"><?php echo $text_minimum; ?></div>
-				<?php } ?>
-			</div>
-		</div>
-		</div>
+
+
 		<div class="clear"></div>
 		<?php if ($review_status) { ?>
 		<div class="review">

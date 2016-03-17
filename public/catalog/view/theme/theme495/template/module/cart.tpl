@@ -35,7 +35,6 @@
 				<?php } ?>
 				</div>
 				<span class="quantity">x&nbsp;<?php echo $product['quantity']; ?></span>
-				<span class="total"><?php echo $product['total']; ?></span>
 				<div class="remove"><span onclick="(getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') ? location = 'index.php?route=checkout/cart&amp;remove=<?php echo $product['key']; ?>' : $('#cart').load('index.php?route=module/cart&amp;remove=<?php echo $product['key']; ?>' + ' #cart > *');"  ><i class="fa fa-times-circle"></i><?php echo $button_remove; ?></span></div>
 				</td>
 			<!--td class="quantity">x&nbsp;<?php //echo $product['quantity']; ?></td-->
@@ -52,16 +51,6 @@
 			<!--<td class="quantity">x&nbsp;1</td>-->
 			<!--<td class="total"><?php echo $voucher['amount']; ?></td>-->
 			
-			</tr>
-			<?php } ?>
-		</table>
-		</div>
-		<div>
-		<table class="total">
-			<?php foreach ($totals as $total) { ?>
-			<tr>
-			<td class="text-right total-right"><b><?php echo $total['title']; ?>:</b></td>
-			<td class="text-left total-left"><span class="t-price"><?php echo $total['text']; ?></span></td>
 			</tr>
 			<?php } ?>
 		</table>

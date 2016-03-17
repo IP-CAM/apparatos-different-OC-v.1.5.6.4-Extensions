@@ -4607,3 +4607,28 @@ table.radio {
    color: #FFF !important;
 }
 /* FIM - Cor do placeholder */
+
+
+
+
+  	.buttom-fim-orc {
+	background: #CA361C;    
+	display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: normal;
+    padding: 12px 15px 13px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	}
+	.buttom-fim-orc:hover {
+	    background: #923830;
+	    color: #FFF;
+	}
