@@ -1,4 +1,3 @@
-
 <?php echo $header; ?>
 <?php echo $column_left; ?>
 		<div class="<?php if ($column_left or $column_right) { ?>col-sm-9<?php } ?> <?php if (!$column_left & !$column_left) { ?>col-sm-12  <?php } ?> <?php if ($column_left & $column_right) { ?>col-sm-6<?php } ?>" id="content"><?php echo $content_top; ?>
@@ -117,30 +116,6 @@
           <br />
       </div>
       <?php endif; ?>
-	  
-<style type="text/css">
-  	.buttom-fim-orc {
-	background: #CA361C;    
-	display: inline-block;
-    text-decoration: none;
-    cursor: pointer;
-    color: #fff;
-    font-size: 12px;
-    line-height: 14px;
-    font-weight: normal;
-    padding: 12px 15px 13px;
-    text-transform: uppercase;
-    text-align: center;
-    vertical-align: top;
-    border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-	}
-.buttom-fim-orc:hover {
-	    background: #923830;
-	    color: #FFF;
-	}
-</style>
 
 	  <div class="cart">
 		<div class="prod-row">
