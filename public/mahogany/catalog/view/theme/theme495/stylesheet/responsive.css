@@ -926,6 +926,9 @@
 	#telefone .button-telefone {
 	    width: 290px;
 	}
+	.block-contact {
+		display: none;
+	}
 	header #logo {
 	    max-width: 100%;
 		margin: 0px 0px 15px 0px;
