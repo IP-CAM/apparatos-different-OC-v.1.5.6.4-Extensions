@@ -1,0 +1,613 @@
+﻿<modification>
+    <id>Featured</id>
+	<version>1.0.0</version>
+	<vqmver>2.3.0</vqmver>
+	<author>Tm</author>
+	
+<!-- featured -->
+	<file name="catalog/controller/module/featured.php">
+	
+		<operation error="skip">
+			<search position="after"><![CDATA[ 
+				$this->data['button_cart'] = $this->language->get('button_cart');
+				]]></search>
+			<add><![CDATA[
+		$this->data['sale'] = $this->language->get('sale');
+		$this->data['new'] = $this->language->get('new');
+		]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after"><![CDATA[ 'href'    	 => $this->url->link('product/product', 'product_id=' . $product_info['product_id']) ]]></search>
+			<add><![CDATA[ , 'last_array' => $last_array,  'limit_last' => $lim_last ]]></add>
+		</operation>
+		
+	</file>
+	
+	<file name="catalog/language/*/module/featured.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']  = 'Based on %s reviews.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/module/featured.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']   = '%s Beurteilungen.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/module/featured.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']  = 'Basado en %s valoraciones.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+				]]></add>
+		</operation>
+	</file>
+	
+<!-- special -->
+
+	<file name="catalog/controller/module/special.php">
+	
+		<operation error="skip">
+			<search position="after"><![CDATA[ 
+				$this->data['button_cart'] = $this->language->get('button_cart');
+				]]></search>
+			<add><![CDATA[
+		$this->data['sale'] = $this->language->get('sale');
+		$this->data['new'] = $this->language->get('new');
+		]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after"><![CDATA['rating'     => $rating,]]></search>
+			<add><![CDATA[  'last_array' => $last_array,  'limit_last' => $lim_last, ]]></add>
+		</operation>
+		
+	</file>
+	
+	<file name="catalog/language/*/module/special.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']  = 'Based on %s reviews.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/module/special.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']   = '%s Beurteilungen.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/module/special.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']  = 'Basado en %s valoraciones.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+				]]></add>
+		</operation>
+	</file>	
+	
+<!-- bestseller -->
+
+	<file name="catalog/controller/module/bestseller.php">
+	
+		<operation error="skip">
+			<search position="after"><![CDATA[ 
+				$this->data['button_cart'] = $this->language->get('button_cart');
+				]]></search>
+			<add><![CDATA[
+		$this->data['sale'] = $this->language->get('sale');
+		$this->data['new'] = $this->language->get('new');
+		]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after"><![CDATA[ 'rating'     => $rating, ]]></search>
+			<add><![CDATA[  'last_array' => $last_array,  'limit_last' => $lim_last, ]]></add>			
+		</operation>
+		
+	</file>
+	
+	<file name="catalog/language/*/module/bestseller.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']  = 'Based on %s reviews.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/module/bestseller.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']   = '%s Beurteilungen.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/module/bestseller.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']  = 'Basado en %s valoraciones.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+				]]></add>
+		</operation>
+	</file>	
+	
+<!-- latest -->
+	<file name="catalog/controller/module/latest.php">
+	
+		<operation error="skip">
+			<search position="after"><![CDATA[ 
+				$this->data['button_cart'] = $this->language->get('button_cart');
+				]]></search>
+			<add><![CDATA[
+		$this->data['sale'] = $this->language->get('sale');
+		$this->data['new'] = $this->language->get('new');
+		]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		
+		<operation error="skip">
+			<search position="after"><![CDATA[ 'rating'     => $rating, ]]></search>
+			<add><![CDATA[  'last_array' => $last_array,  'limit_last' => $lim_last, ]]></add>
+		</operation>
+		
+	</file>
+	
+	<file name="catalog/language/*/module/latest.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']  = 'Based on %s reviews.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/module/latest.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']   = '%s Beurteilungen.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/module/latest.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_reviews']  = 'Basado en %s valoraciones.'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+				]]></add>
+		</operation>
+	</file>
+
+<!--category-->
+
+	<file name="catalog/controller/product/category.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['button_continue'] = $this->language->get('button_continue'); ]]></search>
+			<add><![CDATA[
+			$this->data['sale'] = $this->language->get('sale');
+			$this->data['new'] = $this->language->get('new');
+			
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ 'rating'      => $result['rating'], ]]></search>
+			<add><![CDATA[  'last_array' => $last_array,  'limit_last' => $lim_last, ]]></add>
+		</operation>
+		
+	</file>
+	<file name="catalog/language/english/product/category.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Show:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/product/category.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Anzeige:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/product/category.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Mostrar:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+			]]></add>
+		</operation>
+	</file>
+	
+	
+	<file name="catalog/controller/product/special.php">		
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['button_compare'] = $this->language->get('button_compare'); ]]></search>
+			<add><![CDATA[
+			$this->data['sale'] = $this->language->get('sale');
+			$this->data['new'] = $this->language->get('new');
+			
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ 'rating'      => $result['rating'], ]]></search>
+			<add><![CDATA[  'last_array' => $last_array,  'limit_last' => $lim_last, ]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/english/product/special.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Show:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/product/special.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Anzeige:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/product/special.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Mostrar:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+			]]></add>
+		</operation>
+	</file>
+	
+	
+	<file name="catalog/controller/product/manufacturer.php">		
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['button_continue'] = $this->language->get('button_continue'); ]]></search>
+			<add><![CDATA[
+			$this->data['sale'] = $this->language->get('sale');
+			$this->data['new'] = $this->language->get('new');
+			
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ 'rating'      => $result['rating'], ]]></search>
+			<add><![CDATA[  'last_array' => $last_array,  'limit_last' => $lim_last, ]]></add>
+		</operation>
+		
+	</file>
+	<file name="catalog/language/english/product/manufacturer.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Show:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/product/manufacturer.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Anzeige:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/product/manufacturer.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Mostrar:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+			]]></add>
+		</operation>
+	</file>
+	
+	
+	<file name="catalog/controller/product/search.php">		
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['button_compare'] = $this->language->get('button_compare'); ]]></search>
+			<add><![CDATA[
+			$this->data['sale'] = $this->language->get('sale');
+			$this->data['new'] = $this->language->get('new');
+			
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ 'rating'      => $result['rating'], ]]></search>
+			<add><![CDATA[  'last_array' => $last_array,  'limit_last' => $lim_last, ]]></add>
+		</operation>
+		
+	</file>
+	<file name="catalog/language/english/product/search.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Show:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/product/search.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Anzeige:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/product/search.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Mostrar:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+			]]></add>
+		</operation>
+	</file>
+	
+	<file name="catalog/controller/product/product.php">		
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['button_compare'] = $this->language->get('button_compare'); ]]></search>
+			<add><![CDATA[
+			$this->data['sale'] = $this->language->get('sale');
+			$this->data['new'] = $this->language->get('new');
+			
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['products'] = array(); ]]></search>
+			<add><![CDATA[ 
+				$lim_last=5; 
+				$data = array(
+					'sort'  => 'p.date_added',
+					'order' => 'DESC',
+					'start' => 0,
+					'limit' => $lim_last
+				);
+				$results1 = $this->model_catalog_product->getProducts($data);
+				$last_array = array();
+				foreach ($results1 as $result) {
+				$last_array[] = $result['product_id'];			
+				};
+				
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ 'rating'     => $rating, ]]></search>
+			<add><![CDATA[  'last_array' => $last_array,  'limit_last' => $lim_last, ]]></add>
+		</operation>
+		
+	</file>
+	<file name="catalog/language/english/product/product.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Show:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'sale';
+				$_['new']          = 'new!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/product/product.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Anzeige:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'verkauf';
+				$_['new']          = 'neu!';
+				
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/product/product.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[  $_['text_limit']        = 'Mostrar:'; ]]></search>
+			<add><![CDATA[
+				$_['sale']          = 'venta';
+				$_['new']          = 'nuevo!';
+				
+			]]></add>
+		</operation>
+	</file>
+	
+</modification>

@@ -1,0 +1,462 @@
+---------- Date: 2016-11-13 03:32:31 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:32:40 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/acessoriospessoais
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:32:43 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:32:46 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=checkout/simplecheckout
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:32:46 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/catalog/view/javascript/jquery/ui/i18n/jquery.ui.datepicker-pt_br.js
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:32:48 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:35:33 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:37 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:37 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:37 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:37 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:43 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/linhatramontina/bancosecadeiras
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:47 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:48 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=checkout/simplecheckout
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:49 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/catalog/view/javascript/jquery/ui/i18n/jquery.ui.datepicker-pt_br.js
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:50 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:36:50 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:01 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=checkout/simplecheckout
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:01 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/catalog/view/javascript/jquery/ui/i18n/jquery.ui.datepicker-pt_br.js
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:02 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=common/home
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:05 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/acessoriospessoais
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:07 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/acessoriospessoais?product_id=599
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:11 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:14 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:14 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:14 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:15 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=checkout/simplecheckout
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:16 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/catalog/view/javascript/jquery/ui/i18n/jquery.ui.datepicker-pt_br.js
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:20 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=common/home
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:25 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/linhatramontina/facasfaqueiroseutensilios
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:27 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=module/cart
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:29 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/index.php?route=checkout/simplecheckout
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-11-13 03:37:29 ~ IP : 172.17.0.1 ----------
+REQUEST URI : /mahogany/catalog/view/javascript/jquery/ui/i18n/jquery.ui.datepicker-pt_br.js
+MOD DETAILS:
+   modFile   : /var/www/html/apparatos/public/mahogany/vqmod/xml/mod_orcamento.xml
+   id        : VQMOD PARA ATIVAÇÃO DO MODULO DE ORCAMENTOS
+   version   : 2.1.0
+   vqmver    : 2.x
+   author    : joseanmatias
+
+File Name    : catalog/view/theme/*/template/module/cart.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td class="total"><?php echo $product['total']; ?></td>
+----------------------------------------------------------------------
+
+

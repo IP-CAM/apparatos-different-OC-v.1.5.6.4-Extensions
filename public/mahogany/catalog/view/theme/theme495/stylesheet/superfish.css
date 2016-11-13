@@ -1,0 +1,319 @@
+/*** ESSENTIAL STYLES ***/
+#menu {
+	position:relative;
+	width:100%;
+	height:55px;
+	z-index:21;
+	top:0;
+	line-height:0;	
+	background: #fafafa;
+	border-top:1px solid #e0e0e0;
+	border-bottom:1px solid #e0e0e0;
+	margin-top:55px;
+}
+#menu.isStuck{
+	margin-top:0;
+}
+ul.sf-menu {
+	position: relative;
+	z-index:9;
+	display: inline-block;
+	float:left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.sf-menu > li:first-child {
+	background: none;
+	padding-left:0;
+}
+ul.sf-menu > li {
+	position:relative;
+	border-radius:0;
+	display: inline-block;
+	float:left;
+	text-align: center;
+}
+.ie ul.sf-menu > li {
+	width: auto;
+}
+ul.sf-menu > li > a {
+	display:inline-block;	
+	width:100%;
+	height:100%;
+	z-index: 1;
+	position: relative;
+	font-family: "Open Sans",sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	line-height:49px;
+	height:53px;
+	color:#707070;
+	text-transform:uppercase;
+	overflow:hidden;
+}
+ul.sf-menu > li > a:after{
+	position:absolute;
+	display:block;	
+	height:5px;
+	width:0%;
+	background:#fafafa;
+	content:'';
+	left:50%;
+	bottom:0;
+	z-index:2;
+}
+ul.sf-menu > li > a:hover,
+ul.sf-menu  > li.active > a,
+ul.sf-menu  > li.current > a,
+ul.sf-menu  > li.sfHover > a{
+	color:#000;
+}
+ul.sf-menu > li > a > span{
+	position:relative;
+	display:inline-block;
+	padding: 0 19px 0 18px;
+	line-height:14px;
+	vertical-align:middle;
+}
+ul.sf-menu > li:first-child > a > span{
+	padding-left:0;
+}
+ul.sf-menu > li > a span{
+	position:relative;
+	z-index:2;
+}
+.sf-menu .sf-mega {
+	display: none;
+	position: absolute;
+	text-align:left;
+	z-index: 5;
+	left:0;
+	top:100%;
+}
+/*** mega menu dropdown ***/
+
+.sf-mega-section {
+	display:table-cell;
+}
+.sf-mega-section  ul{
+	background:#2e2e2e;
+}
+.sf-mega-section li:first-child {
+	border-top:none;
+}
+.sf-mega-section li {
+	position:relative;	
+	width:246px;
+	line-height:20px;
+	border-top:1px solid #454545;
+	background:#2e2e2e;
+}
+.sf-mega-section li li{
+	background:#242424;
+}
+.sf-mega-section li a:hover, .sf-mega-section li.sfHover>a ,
+.sf-mega-section li.sfHover>a:after {
+	color:#fff;
+}
+.sf-mega-section li a {
+	display:inline-block;
+	width:100%;
+	font-size:11px;
+	line-height:13px;
+	padding:10px 25px 10px 15px;
+	color:#bfbfbf;
+	text-transform:uppercase;
+}
+.sf-mega-section >li ul {
+	position:absolute;
+	top:0;
+	left:245px;
+	width:246px;
+	z-index:10;
+	display:none;
+}
+.sf-mega-section:first-child >li ul {
+	left:244px;
+}
+.sf-mega-section >li ul li{	
+}
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
+}
+.sf-mega-section .sf-with-ul:after {
+	position:absolute;
+	top:0;
+	right:0;
+	width:20px;
+	padding-right:25px;
+	height:34px;
+	content:'\f078';
+	background-image: none;
+	background-position: 0 0;
+	background-repeat: repeat;
+	display: inline-block;
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-weight: normal;
+	line-height:0;
+	height: auto;
+	margin-top: 0;
+	text-decoration: inherit;
+	vertical-align: middle;
+	padding-left:3px;
+	font-size:9px;
+	line-height:32px;
+	color:#c4c4c4;
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: white; /* IE8 fallback colour */
+}
+/*****************************************************/
+#menu-icon {
+	background: #222E35;
+    color: #fff;
+	font-family: "Cabin",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 16px 20px;
+    text-align: left;
+    text-transform: uppercase;
+	cursor: pointer;
+	display: block;
+	position:relative;
+}
+#menu-icon:after {
+	float:right;
+	content:"\f078";
+	background-image: none;
+	background-position: 0 0;
+	background-repeat: repeat;
+	display: inline;
+	font-family: 'FontAwesome';
+	font-style: normal;
+	font-weight: normal;
+	height: auto;	
+	margin-top: 0;
+	text-decoration: inherit;
+	vertical-align: baseline;
+	width: auto;
+	display: inline-block;
+	text-decoration: inherit;
+	text-align: center;
+	width: 1.25em;
+	font-size:13px;
+	line-height:24px;
+	color:#fff;
+	vertical-align:middle;
+}
+#menu-icon:hover:after {
+	color:#222E35;
+}
+#menu-icon.active:after {
+	content:"\f077";
+	}
+.sf-menu-phone {display:none;}
+.sf-menu-phone li { 
+	position: relative;
+}
+.sf-menu-phone >li:first-child >a {
+	border-top:none;
+}
+.sf-menu-phone > li > a {
+	font-family: "Open Sans",sans-serif;
+	}
+.sf-menu-phone li a {
+	display: inline-block;  
+	color: #2e2e2e;
+	font-family: "Cabin",sans-serif;
+	font-size:12px;
+	line-height:14px;
+	text-transform:uppercase;
+	text-align:left;
+}
+.sf-menu-phone  > li:first-child { 
+	border-top:none;
+}
+.sf-menu-phone  li {  
+	font-size: 19px;
+	padding: 0; 
+}
+.sf-menu-phone  > li { 
+	border-top:none;
+	background:#f9f9f9;
+	border:1px solid #efefef;
+	border-top:none;
+}
+.sf-menu-phone  li > a {
+	padding: 10px 15px; 
+	display: block;
+}
+.sf-menu-phone  li li  a {
+	font-size:12px;
+	line-height:14px;
+	text-transform:none;
+	padding: 8px 15px 8px 25px;
+	display: block;
+}
+.sf-menu-phone  li li li a {
+	padding: 8px 15px 8px 35px;
+	display: block;
+}
+.sf-menu-phone li a:hover {
+	color: #31353d; 
+}
+.sf-menu-phone > li >a:hover {
+	background: #efefef; 
+}
+.sf-menu-phone li li a:hover {
+	background: #efefef; 
+}
+.sf-menu-phone li li {
+	font-size: 14px;
+}
+.sf-menu-phone li li.last {
+	padding-bottom: 0 !important;  
+}
+.sf-menu-phone  li  i {
+	display:block;
+	top: 0;
+	color:#bababa;
+	font-size:16px;
+	line-height:35px;
+	height:35px;
+	width:43px;
+	text-align:center;
+	right:0;
+}
+.sf-menu-phone  li li i {
+	line-height:30px;
+	height:30px;
+}
+.sf-menu-phone  li i.icon-angle-up:before {
+	content:'\f106' !important
+}
+.sf-menu-phone li i:hover {
+	cursor: pointer; 
+	color:#31353d;
+}
+.sf-menu-phone li i.opened {
+	background-position: center 7px; 
+}
+/** dropdown **/
+.sf-menu-phone ul {
+	width: auto;
+	display: none;  
+	background:#f4f4f4;
+}
+
+.sf-menu-phone  li:hover > a ,
+.sf-menu-phone  li.active > a,
+.sf-menu-phone  li a:hover,
+.sf-menu-phone  li a.active{
+	color: #ee5249;
+}
+

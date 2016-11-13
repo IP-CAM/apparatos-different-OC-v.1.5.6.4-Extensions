@@ -1,0 +1,54 @@
+header #logo a img {
+	width:auto;
+	}
+.camera_caption {
+	width:auto;
+	}
+#cboxLoadingGraphic, #cboxLoadingOverlay {
+	display:none !important;
+	}
+div.sort {
+	width:220px;
+}
+div.limit {
+	width:130px;
+	}
+html[lang="de"] div.sort {
+	width:270px;
+}
+html[lang="de"] div.limit {
+	width:150px;
+	}
+html[lang="es"] div.sort {
+	width:250px;
+}
+html[lang="es"] div.limit {
+	width:150px;
+	}
+.product-info .cart-top-padd label{
+	width:65px;
+}
+html[lang="es"] .product-info .cart-top-padd label{
+	width:100px;
+}
+html[lang="de"] .product-info .cart-top-padd label{
+	width:85px;
+}
+#search input {
+	max-width:none;
+	width:200px;
+	outline:none;
+}
+.camera_caption {
+	width:100%;
+}
+.nav__primary.isStuck{
+	position:relative !important;
+	top:auto !important;
+}
+.product-info .share .stMainServices:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+.box.man a img{
+	max-width:100px;
+}

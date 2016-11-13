@@ -1,0 +1,75 @@
+﻿<modification>
+	<id>Footer </id>
+	<version>1.0.0</version>
+	<vqmver>2.3.0</vqmver>
+	<author>Tm</author>
+	<file name="catalog/controller/common/footer.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['text_newsletter'] = $this->language->get('text_newsletter'); ]]></search>
+			<add><![CDATA[ 
+			$this->data['text_account'] = $this->language->get('text_account');
+			$this->data['text_follow'] = $this->language->get('text_follow');
+			$this->data['text_support'] = $this->language->get('text_support');
+			$this->data['text_fb'] = $this->language->get('text_fb');
+			$this->data['text_gglp'] = $this->language->get('text_gglp');
+			$this->data['text_rss'] = $this->language->get('text_rss');
+			$this->data['text_pn'] = $this->language->get('text_pn');
+			$this->data['text_in'] = $this->language->get('text_in');
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="after"><![CDATA[ $this->data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL'); ]]></search>
+			<add><![CDATA[ 
+			$this->data['address'] = nl2br($this->config->get('config_address'));
+			$this->data['telephone'] = $this->config->get('config_telephone');
+			$this->data['fax'] = $this->config->get('config_fax');
+			$this->data['email'] = $this->config->get('config_email');
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/*/common/footer.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_account']      = 'My Account'; ]]></search>
+			<add><![CDATA[ 
+				$_['text_follow']   = 'Follow Us';
+				$_['text_support']   = 'Online support';
+				$_['text_fb']   = 'Facebook';
+				$_['text_gglp']   = 'Google+';				
+				$_['text_rss']   = 'RSS';
+				$_['text_pn']   = 'Pinterest';				
+				$_['text_in']   = 'Linkedin';
+				$_['tx_phone']   = 'Call us now toll free: ';
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/german/common/footer.php">
+		<operation error="skip">
+			<search position="after"><![CDATA[ $_['text_wishlist']     = 'Wunschzettel'; ]]></search>
+			<add><![CDATA[ 
+				$_['text_follow']   = 'Folgen Sie uns';
+				$_['text_support']   = 'Online-Unterstutzung';
+				$_['text_fb']   = 'Facebook';
+				$_['text_gglp']   = 'Google+';				
+				$_['text_rss']   = 'RSS';
+				$_['text_pn']   = 'Pinterest';				
+				$_['text_in']   = 'Linkedin';
+				$_['tx_phone']   = 'Rufen Sie uns an gebuhrenfrei: ';
+				]]></add>
+		</operation>
+	</file>
+	<file name="catalog/language/spanish/common/footer.php">
+		<operation error="skip">
+			<search position="after" ><![CDATA[ $_['text_wishlist']     = 'Lista de deseos'; ]]></search>
+			<add><![CDATA[ 
+				$_['text_follow']   = 'Siganos';
+				$_['text_support']   = 'El soporte en linea';
+				$_['text_fb']   = 'Facebook';
+				$_['text_gglp']   = 'Google+';				
+				$_['text_rss']   = 'RSS';
+				$_['text_pn']   = 'Pinterest';				
+				$_['text_in']   = 'Linkedin';
+				$_['tx_phone']   = 'Llámenos ahora al número gratuito: ';
+				]]></add>
+		</operation>
+	</file>
+</modification>

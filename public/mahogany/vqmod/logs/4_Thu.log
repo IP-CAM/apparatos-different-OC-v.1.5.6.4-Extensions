@@ -1,0 +1,12 @@
+---------- Date: 2014-12-04 15:57:08 ~ IP : 192.168.9.1 ----------
+REQUEST URI : /495/index.php?route=information/contact
+MOD DETAILS:
+   modFile   : C:\wamp\www\495\vqmod/xml/tm_product_category.xml
+   id        : Category images
+   version   : 1.0.0
+   vqmver    : 2.3.0
+   author    : TM
+VQModObject::parseMods - Could not resolve path for [catalog/controller/product/manufacturer_info.php] (SKIPPED)
+----------------------------------------------------------------------
+
+

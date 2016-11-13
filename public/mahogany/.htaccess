@@ -1,0 +1,10 @@
+AuthUserFile /var/www/html/public/mahogany/.htpasswd
+AuthType Basic
+AuthName "Restrito"
+Require valid-user
+
+RewriteEngine On
+RewriteBase /mahogany/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\?*$ index.php?_route_=$1 [L,QSA]
