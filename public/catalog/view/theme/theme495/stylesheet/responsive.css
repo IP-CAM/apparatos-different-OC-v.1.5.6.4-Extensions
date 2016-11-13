@@ -921,6 +921,10 @@
 	}	
 	header .nav__primary {
 		margin: 0;		
+		margin-top: 50px;
+	}
+	#telefone .button-telefone {
+	    width: 290px;
 	}
 	header #logo {
 	    max-width: 100%;
